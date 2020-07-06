@@ -1,106 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>John's Personal Site</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <!-- head section contains metadata -->
+  <head>
+    <meta charset="utf-8">
+    <title>John O'Donnell</title>
+    <!-- link css style sheet and favicon -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
 
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="twitter_profile.jpg" alt="john profile picture" style="height: 200px;"></td>
-      <td><h1>John O'Donnell</h1>
-          <p><em>Pursuing a B.S. in Computer Science</em></p>
-          <p><em><a href="https://github.com/john-odonnell">Github</a></em></p>
-          <p><em><a href="https://www.linkedin.com/in/john-o%E2%80%99donnell-49739014a/">LinkedIn</a></em></p></td>
-    </tr>
-  </table>
+  <!-- defines the body of the site -->
+  <body>
+    <!-- introduction division -->
+    <div class="top">
+      <img class="top_cloud" src="images/cloud.png" alt="cloud_image">
+      <h1>I'm John.</h1>
+      <a class="cv_link" href="cv.html">(a more professional CV.)</a>
+      <h2>a student and programmer.</h2>
+      <img class="bottom_cloud" src="images/cloud.png" alt="cloud_image">
+      <img class="mountain" src="images/mountain.png" alt="mountain_image">
+    </div>
 
-  <br>
+    <!-- pulled from class resources -->
+    <div class="middle">
+      <div class="profile">
+        <img class="profile_pic" src="images/profile_pic.jpg" alt="profile_picture">
+        <h2>Hello</h2>
+        <p>I am a senior Computer Science student at the University of Rhode Island.</p>
+      </div>
 
-  <p>I study at the University of Rhode Island, and will be graduating in the
-  spring of 2021 with a 3.65 GPA in Computer Science and Mathematics
-  courses. I am highly motivated to enter the workplace not only to
-  contribute to projects as a team member, but also to learn cutting-edge
-  technologies from established professionals.</p>
+      <hr>
 
-  <hr noshade>
+      <div class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-row">
+          <img class="cpp_image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" alt="cpp">
+          <h3>Languages</h3>
+          <p class="lang_description">I enjoy using C, C++ and Python. I know some of HTML, CSS, and SQL.</p>
+        </div>
+        <div class="skill-row">
+          <img class="python_image" src="images/python3.png" alt="python3">
+          <h3>Design and Development</h3>
+          <p class="dev_description">I excel in Object Oriented design,
+            as well as using it to implement Data Structures. I have foundational
+            knowledge of Computer Achitecture, including profiling assembly code
+            in order to optimize programs. I have a lot to learn, and am always
+            trying to learn a new skill or improve an old one!</p>
+        </div>
+      </div>
 
-  <h3>In Progress</h3>
-  <ul>
-    <li>Operating Systems and Networks</li>
-    <li>Design and Analysis of Algorithms</li>
-    <li>Computer Graphics</li>
-  </ul>
+      <hr>
 
-  <h3>Completed Courses</h3>
-  <ul>
-    <li>Computer Organization</li>
-    <li>Data Structures and Abstractions</li>
-    <li>Applied Combinatorics</li>
-    <li>Software Engineering</li>
-    <li>Fundamentals of Programming Languages</li>
-    <li>Object Oriented Programming</li>
-  </ul>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>I am currently in the market for an internship for the Fall of 2020.</h3>
+        <p>I would love and oppourtunity, and am excited to hear from you!</p>
+        <a class="btn" href="mailto:johnodonnell77@my.uri.edu">CONTACT ME</a>
+      </div>
+    </div>
 
-  <hr noshade>
 
-  <h3>Projects</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Project</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>April 2020</td>
-        <td>Universal VM</td>
-        <td>32-bit VM Developed in C, based on the 2006 ICFP Programming Contest.</td>
-      </tr>
-      <tr>
-        <td>February 2020</td>
-        <td>Image Compression Suite</td>
-        <td>Modular (de)compression algorithm based on JPEG</td>
-      </tr>
-      <tr>
-        <td>April 2019</td>
-        <td>DUCKTRON</td>
-        <td>Clone of classic game TRON, state machine designed in VHDL</td>
-      </tr>
-    </tbody>
-  </table>
+    <div class="bottom">
+      <a class="footer-link" href="https://github.com/john-odonnell">GitHub</a>
+      <a class="footer-link" href="https://www.linkedin.com/in/john-o%E2%80%99donnell-49739014a/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/ArmoredBubbles">Twitter</a>
+      <p class="copywrite">© 2018 John O'Donnell.</p>
+    </div>
 
-  <hr noshade>
-
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>Data Structure Design</td>
-      <td>Algorithm Design</td>
-      <td>Object Oriented Programming</td>
-    </tr>
-    <tr>
-      <td>Profiling and Optimization</td>
-      <td>Front-End Web Dev</td>
-      <td>HTML, CSS and Javascrpit</td>
-    </tr>
-    <tr>
-      <td>C/C++</td>
-      <td>Python</td>
-      <td>SQL</td>
-    </tr>
-  </table>
-
-  <hr noshade>
-
-  <a href="contact.html">Contact Me</a>
-  <a href="hobbies.html">My Hobbies</a>
-
-</body>
-
+  </body>
 </html>

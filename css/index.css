@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  /*Dynamic font sizes: 100% = 16px
+    1em = 16px = the width of the letter M
+    These are dynamic in the sense that personal font sizing
+    affects the sizes of these*/
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999e;
+}
+
+hr {
+  width: 20%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: #eaf6f6;
+}
+
+.top {
+  background-color: #eaf6f6;
+  /*the top container must have relative positioning in order to
+    allow its children to have absolute positioning relative
+    to the container itself instead of the body*/
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 0;
+  line-height: 2;
+}
+
+.middle {
+}
+
+.bottom {
+  background-color: #66bfbf;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cv_link {
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain {
+  position: relative;
+  top: 11px;
+}
+
+.profile_pic {
+  width: 25%;
+  border-radius: 10%
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.cpp_image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.python_image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #11999e;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 15px;
+  margin: 50px auto;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn:link {
+  color: #ffffff;
+}
+.btn:visited {
+  color: #ffffff;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-link:link {
+  color: #11999e;
+}
+.footer-link:visited {
+  color: #11999e;
+}
+
+.copywrite {
+  color: #eaf6f6;
+  font-weight: bold;
+}
