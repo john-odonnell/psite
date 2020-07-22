@@ -1,0 +1,103 @@
+/* Title Section */
+body {
+  font-family: 'Monserrat', sans-serif;
+}
+
+h2 {
+  padding-top: 12px;
+}
+
+h4 {
+  color: #f9f7f7;
+}
+
+p {
+  color: #f9f7f7;
+}
+
+#title {
+  background-color: #112d4e;
+  padding-bottom: 30px;
+}
+
+/* Nabar */
+
+/* Profile */
+.profile-image {
+  height: 200px;
+}
+
+.intro_table {
+  margin-bottom: 12px;
+}
+
+.img-td {
+  padding-left: 16px;
+}
+
+.desc-td {
+  padding-left: 15px;
+}
+
+/* Projects */
+#projects {
+  background-color: #f9f7f7;
+  padding-left: 31px;
+  padding-bottom: 31px;
+  padding-top: 31px;
+}
+
+.project-header {
+  color: #112d4e;
+}
+
+.project-column {
+  padding-bottom: 16px;
+}
+
+.card-header {
+  background-color: #112d4e;
+}
+
+.card-body-text {
+  color: #000;
+}
+
+.row {
+  margin-right: 16px;
+}
+
+/* Languages */
+#languages {
+  background-color: #f9f7f7;
+  padding-left: 31px;
+  padding-bottom: 31px;
+}
+
+.languages-header {
+  color: #112d4e;
+}
+
+/* Footer */
+#footer {
+  background-color: #112d4e;
+  text-align: center;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.footer-head {
+  color: #f9f7f7;
+}
+
+.footer-links {
+  padding-top: 16px;
+}
+
+.footer-link {
+  color: #3f72af;
+}
+
+.footer-signature {
+  color: #f9f7f7;
+}
