@@ -1,8 +1,8 @@
 # Personal Site
 ## Serves as a functional Resume
-[See latest Deploment](https://john-odonnell.github.io/psite)
+[See Latest Deployment](https://john-odonnell.github.io/psite)
 
-Highlights completed projects and Programming Language Experience
+Highlights completed projects and programming language experience
 
 TODO:
 * Add more projects
