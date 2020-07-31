@@ -56,6 +56,10 @@ p {
   padding-bottom: 16px;
 }
 
+.card {
+  width: 100%;
+}
+
 .card-header {
   background-color: #112d4e;
 }
@@ -76,6 +80,17 @@ p {
 }
 
 .languages-header {
+  color: #112d4e;
+}
+
+/* Courses */
+#courses {
+  background-color: #f9f7f7;
+  padding-left: 31px;
+  padding-bottom: 31px;
+}
+
+.courses-header {
   color: #112d4e;
 }
 
