@@ -18,12 +18,15 @@ p {
 
 #title {
   background-color: #112d4e;
+  /* padding-bottom: 30px; */
+}
+
+/* Headshot */
+#headshot {
+  background-color: #112d4e;
   padding-bottom: 30px;
 }
 
-/* Nabar */
-
-/* Profile */
 .profile-image {
   height: 200px;
 }
@@ -33,27 +36,29 @@ p {
 }
 
 .img-td {
-  padding-left: 16px;
+  padding-left: 30px;
 }
 
 .desc-td {
+  padding-top: 5px;
   padding-left: 15px;
+  padding-right: 30px;
 }
 
 /* Projects */
 #projects {
   background-color: #f9f7f7;
-  padding-left: 31px;
-  padding-bottom: 31px;
-  padding-top: 31px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .project-header {
-  color: #112d4e;
+  color: BLACK;
 }
 
 .project-column {
-  padding-bottom: 16px;
+  padding-bottom: 15px;
 }
 
 .card {
@@ -69,36 +74,36 @@ p {
 }
 
 .row {
-  margin-right: 16px;
+  margin-right: 15px;
 }
 
 /* Languages */
 #languages {
   background-color: #f9f7f7;
-  padding-left: 31px;
-  padding-bottom: 31px;
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 .languages-header {
-  color: #112d4e;
+  color: BLACK;
 }
 
 /* Courses */
 #courses {
   background-color: #f9f7f7;
-  padding-left: 31px;
-  padding-bottom: 31px;
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 .courses-header {
-  color: #112d4e;
+  color: BLACK;
 }
 
 /* Footer */
 #footer {
   background-color: #112d4e;
   text-align: center;
-  padding: 31px 31px;
+  padding: 30px 30px;
 }
 
 .footer-head {
@@ -106,7 +111,7 @@ p {
 }
 
 .footer-links {
-  padding-top: 16px;
+  padding-top: 15px;
 }
 
 .footer-link {

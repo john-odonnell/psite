@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+
+<div class="post-input">
+
+  <h2>Add a New Post Here!</h2>
+
+  <form action="/newpost" method="post">
+    <div class="form-group" style="margin-bottom: 0;">
+      <label for="new-header">Title</label>
+      <input type="text" class="form-control" id="new-header" name="title">
+
+      <br>
+
+      <label for="new-content">Post Content</label>
+      <textarea class="form-control" id="new-content" rows="3" name="content"></textarea>
+    </div>
+
+    <br>
+
+    <button type="submit" name="submit">Submit Post</button>
+  </form>
+
+</div>
+
+<%- include("partials/footer") -%>

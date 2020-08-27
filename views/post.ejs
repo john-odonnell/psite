@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+
+</div>
+</section>
+
+<section id="post-section">
+  <div id="post">
+    <% let months = ["January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"]; %>
+
+    <% let month = months[post.date.getMonth()]; %>
+    <% let day = post.date.getDate().toString(); %>
+    <% let year = post.date.getFullYear().toString(); %>
+    <% let hour = post.date.getUTCHours().toString(); %>
+    <% let min = post.date.getUTCMinutes().toString(); %>
+    <% let postTime = month + " " + day + ", " + year + " at " + hour +
+      ":" + min + " UTC"; %>
+
+    <h2><%= post.title %></h2>
+    <h6><%= postTime %></h6>
+    <p class="post-body"><%= post.body %></p>
+  </div>
+</section>
+
+<%- include("partials/footer") -%>

@@ -1,73 +1,245 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
-  <!-- head section contains metadata -->
-  <head>
-    <meta charset="utf-8">
-    <title>John O'Donnell</title>
-    <!-- link css style sheet and favicon -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- defines the body of the site -->
-  <body>
-    <!-- introduction division -->
-    <div class="top">
-      <img class="top_cloud" src="images/cloud.png" alt="cloud_image">
-      <h1>I'm John.</h1>
-      <a class="cv_link" href="cv.html">(a more professional CV.)</a>
-      <h2>a computer science student.</h2>
-      <img class="bottom_cloud" src="images/cloud.png" alt="cloud_image">
-      <img class="mountain" src="images/mountain.png" alt="mountain_image">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- local css style sheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/b9a2b4fe17.js" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <title>John O'Donnell</title>
+</head>
+
+<body>
+  <!-- TITLE: includes navbar and intro header -->
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="">
+          <h2>John O'Donnell</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-div" name="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-div">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="https://github.com/john-odonnell">GitHub</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link"
+                href="https://www.linkedin.com/in/john-o%E2%80%99donnell-49739014a/?challengeId=AQFJmz0T1kazWQAAAXNzSJd5rYWCnndXosmz4u67if9Pgjlkwvq9UZTeRviq_jSPCQsXdTrLxksUzWHxXCiZxWAWhSAnm-6z2A&submissionId=41816754-d6e1-2316-0a70-f55b08e3616e">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- INTRO -->
+      <table class="intro-table" cellspacing="20">
+        <tr>
+          <td class="img-td">
+            <img class="profile-image" src="IMG_0612.JPG" alt="profile-image">
+          </td>
+          <td class="desc-td">
+            <p>Attending the University of Rhode Island</p>
+            <p>B.S. in Computer Science</p>
+            <p>Graduating May 2021</p>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS: card tiles detailing latest projects -->
+  <section id="projects">
+    <h2 class="projects-header">Projects</h2>
+
+    <div class="row">
+
+      <div class="project-column col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+        <div class="card">
+          <div class="card-header">
+            <h4>Universal Virtual Machine</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <p class="card-body-text">Based on the 2006 ICFP Programming Contest</p>
+            <p class="card-body-text">8 general registers and dynamic address space</p>
+            <p class="card-body-text">Written in C</p>
+            <a class="btn btn-secondary mt-auto" href="https://github.com/john-odonnell/uvm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-column col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+        <div class="card">
+          <div class="card-header">
+            <h4>Image Compression Suite</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <p class="card-body-text">Modular Compression & Decompression Algorithms</p>
+            <p class="card-body-text">Similar to JPEG algorithms</p>
+            <p class="card-body-text">Written in C</p>
+            <a class="btn btn-secondary mt-auto" href="https://github.com/john-odonnell/img_compress">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-column col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+        <div class="card">
+          <div class="card-header">
+            <h4>Conway's Game of Life</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <p class="card-body-text">Based on the classic cellular automaton</p>
+            <p class="card-body-text">Simple graphics output using SDL2</p>
+            <p class="card-body-text">Written in C++</p>
+            <a class="btn btn-secondary mt-auto" href="https://github.com/john-odonnell/GameOfLife">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-column col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+        <div class="card">
+          <div class="card-header">
+            <h4>Tweet Reader</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <p class="card-body-text">Displays Tweets from a given Data Set with navigation options</p>
+            <p class="card-body-text">Implements a Circular Doubly Linked List to order Tweets by time of day</p>
+            <p class="card-body-text">Written in Python</p>
+            <a class="btn btn-secondary mt-auto" href="https://github.com/john-odonnell/csc_212/tree/master/assignments/assignment2">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-column col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+        <div class="card">
+          <div class="card-header">
+            <h4>Tetris Clone</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <p class="card-body-text">Uses pygame library to implement graphics and event handling</p>
+            <p class="card-body-text">Object-Oriented Modular Design</p>
+            <p class="card-body-text">Written in Python</p>
+            <a class="btn btn-secondary mt-auto" href="https://github.com/john-odonnell/tetris">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-column col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+        <div class="card">
+          <div class="card-header">
+            <h4>Image Rotation Suite</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <p class="card-body-text">Implements two 2D array structures: Linear and Blocked</p>
+            <p class="card-body-text">Each has strength with different rotations based on portions of the structures loaded into registers</p>
+            <p class="card-body-text">Written in C</p>
+            <a class="btn btn-secondary mt-auto" href="https://github.com/john-odonnell/csc_411/tree/master/locality">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LANGUAGES: details programming languages -->
+  <section id="languages">
+    <h2 class="languages-header">Languages</h2>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">C/C++</a>
+          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Python</a>
+          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">HTML & CSS</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+            C and C++ are the languages with which I am most comfortable. There's something
+            so strangely satisfying about using pointers and manually allocating memory.
+            My Machine Architecture class was taught in C, and I used it to write some of
+            my most challenging projects to date. C Assembly analysis was featured heavily
+            towards the end of this course.
+          </div>
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+            Python is one of my favorite languages due to its high level nature. It was the primary
+            language of my recent Data Structures and Algorithms class, so I have built fully functional
+            Hash Tables, Singly and Doubly Linked Lists, Stacks and Queues in Python. It also
+            served as my introduction to unit testing classes and functions.
+          </div>
+          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+            Learning HTML and CSS have been a personal project for the duration of the Covid-19 quarantine.
+            I've been working my way through Dr. Angela Yu's Web Dev Bootcamp on Udemy.com, along with personal projects
+            such as this page. I have begun to study backend dev in parralel with frontend aspects, and find
+            it to be much more interesting!
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- pulled from class resources -->
-    <div class="middle">
-      <div class="profile">
-        <img class="profile_pic" src="images/profile_pic.jpg" alt="profile_picture">
-        <h2>Hello</h2>
-        <p>I am a senior Computer Science student at the University of Rhode Island.</p>
-      </div>
+  </section>
 
-      <hr>
+  <!-- COURSES: current and completed -->
+  <section id="courses">
 
-      <div class="skills">
-        <h2>My Skills</h2>
-        <div class="skill-row">
-          <img class="cpp_image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" alt="cpp">
-          <h3>Languages</h3>
-          <p class="lang_description">I enjoy using C, C++ and Python. I have experience with HTML, CSS, and SQL.</p>
-        </div>
-        <div class="skill-row">
-          <img class="python_image" src="images/python3.png" alt="python3">
-          <h3>Design and Development</h3>
-          <p class="dev_description">I excel in Object Oriented design,
-            as well as using it to implement Data Structures. I have foundational
-            knowledge of Computer Achitecture, including profiling assembly code
-            in order to optimize programs. I have a lot to learn, and am always
-            trying to learn a new skill or improve an old one!</p>
+    <h2 class="courses-header">Courses</h2>
+
+    <div class="row">
+      <div class="col-6">
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action active">
+            In Progress
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">Operating Systems and Networks</button>
+          <button type="button" class="list-group-item list-group-item-action">Design and Analysis of Algoritms</button>
+          <button type="button" class="list-group-item list-group-item-action">Computer Graphics</button>
         </div>
       </div>
 
-      <hr>
-
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>I am currently in the market for an internship for the Fall of 2020.</h3>
-        <p>I would love an oppourtunity, and am excited to hear from you!</p>
-        <a class="btn" href="mailto:johnodonnell77@my.uri.edu">CONTACT ME</a>
+      <div class="col-6">
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action active">
+            Completed
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">Computer Organization</button>
+          <button type="button" class="list-group-item list-group-item-action">Software Engineering</button>
+          <button type="button" class="list-group-item list-group-item-action">Data Structures and Abstractions</button>
+        </div>
       </div>
     </div>
+  </section>
 
+  <!-- FOOTER: final word and links again -->
+  <section id="footer">
+    <h2 class="footer-head">I am actively searching for an intership in Fall 2020</h2>
+    <p>I would love an opportunity in Backend Web Dev or Software Engineering!</p>
 
-    <div class="bottom">
+    <div class="footer-links">
       <a class="footer-link" href="https://github.com/john-odonnell">GitHub</a>
       <a class="footer-link" href="https://www.linkedin.com/in/john-o%E2%80%99donnell-49739014a/">LinkedIn</a>
       <a class="footer-link" href="https://twitter.com/ArmoredBubbles">Twitter</a>
-      <p class="copywrite">© 2018 John O'Donnell.</p>
+      <p class="footer-signature">John O'Donnell :: July 2020</p>
     </div>
+  </section>
 
-  </body>
+</body>
+
 </html>

@@ -1,0 +1,44 @@
+<%- include("partials/header") -%>
+
+</div>
+</section>
+
+<section id="posts">
+  <div class="blog-overview">
+    <h2>Public Personal Journal</h2>
+    <p class="description">This journal page is a little project in
+      server-side functionality. My previous website was a static CV, but with
+      this page I'm practicing using EJS templates and filling them with
+      dynamic content stored on the backend.</p>
+    <p class="description">In the meanwhile, I'll probably keep this page updated with topics
+      I'm studying, projects I'm working on or classes I'm taking. Might also
+      touch on my internship and job search, or other ideas that I want to put
+      to paper.</p>
+  </div>
+
+  <div class="post-quickview">
+
+    <% posts.forEach( (postData) => { %>
+    <% let action = "/blog/" + postData.title; %>
+
+    <div class="post">
+
+      <h3><%= postData.title %></h3>
+
+      <p class="abrv-post">
+        <% if (postData.body.length > 100) { %>
+        <%= postData.body.substr(0, 100) %>...
+        <% } else { %>
+        <%= postData.body %>
+        <% } %>
+      </p>
+
+      <button class="btn btn-secondary" onclick="window.location.href = '<%= action %>';">See More</button>
+
+    </div>
+    <% }); %>
+
+  </div>
+</section>
+
+<%- include("partials/footer") -%>
