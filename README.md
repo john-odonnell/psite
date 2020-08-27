@@ -1,6 +1,7 @@
 # Personal Site
 ## Serves as a functional Resume
-[See Latest Deployment](https://john-odonnell.github.io/psite)
+No current deployment./
+The site is soon to be deployed on Heroku.
 
 Highlights completed projects and programming language experience
 
