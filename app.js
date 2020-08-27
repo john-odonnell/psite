@@ -18,7 +18,8 @@ app.use(express.static("public"));
 
 // MONGO INIT
 // connect to local database
-mongoose.connect('mongodb://localhost:27017/blogdb',
+mongoose.connect('mongodb+srv://guest:5JfLmOgS7nvCH1Sg@cluster0.7nsmj.mongodb.net/blogdb?retryWrites=true&w=majority',
+// mongoose.connect('mongodb://localhost:27017/blogdb',
 {useNewUrlParser: true, useUnifiedTopology: true});
 // used to escape depreciation warnings
 // mongoose.set("useFindAndModify", false);
@@ -101,7 +102,8 @@ app.post("/newpost", (req, res) => {
 
 
 // SERVER SPINUP
-app.listen(3366, () => {
-  // initialize the server on local host
-  console.log("Server running on Local 3366");
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  // initialize the server on heroku port
+  console.log("Server running on port " + port);
 });
