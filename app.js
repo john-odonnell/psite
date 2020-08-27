@@ -83,16 +83,16 @@ app.post("/newpost", (req, res) => {
   // the server forms the post into a json and adds to the db
   // redirects the user to the blog page
 
-  // let title = req.body.title;
-  // let body = req.body.content;
-  // let date = new Date();
-  //
-  // let newPost = new Post({
-  //   title: title,
-  //   body: body,
-  //   date: date
-  // });
-  // newPost.save();
+  let title = req.body.title;
+  let body = req.body.content;
+  let date = new Date();
+
+  let newPost = new Post({
+    title: title,
+    body: body,
+    date: date
+  });
+  newPost.save();
 
   res.redirect("/blog");
 });
