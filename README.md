@@ -1,7 +1,6 @@
 # Personal Site
 ## Serves as a functional Resume
-No current deployment.
-The site is soon to be deployed on Heroku.
+[Current Deployment](https://www.johnodonnell.dev)
 
 Highlights completed projects and programming language experience
 
