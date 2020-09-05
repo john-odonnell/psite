@@ -3,3 +3,6 @@ npm-debug.log
 .DS_Store
 /*.env
 admin.js
+Dockerfile
+.*
+!.gitignore
