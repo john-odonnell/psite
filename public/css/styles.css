@@ -82,6 +82,7 @@ p {
   background-color: #f9f7f7;
   padding-left: 30px;
   padding-bottom: 30px;
+  padding-right: 0px;
 }
 
 .languages-header {
@@ -120,4 +121,37 @@ p {
 
 .footer-signature {
   color: #f9f7f7;
+}
+
+.devicon {
+  font-size: 3.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.langtool-section {
+  background-color: #8daac4;
+  height: 5rem;
+  border-radius: 10px;
+  padding-left: 10px;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#lang-courses {
+  background-color: #f9f7f7;
+  padding-right: 15px;
+}
+
+.lang-courses-row {
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
