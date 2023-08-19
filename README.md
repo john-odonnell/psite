@@ -1,9 +1,6 @@
 # Personal Site
-## Serves as a functional Resume
-[Current Deployment](https://www.johnodonnell.dev)
 
-Highlights completed projects and programming language experience
+Build project with `make [go|docker]`.
 
-TODO:
-* Add more projects
-* Add current and past CSC curriculum
+Currently deployed at [johnodonnell.dev](https://www.johnodonnell.dev).
+
