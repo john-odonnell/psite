@@ -1,0 +1,157 @@
+/* Title Section */
+body {
+  font-family: 'Monserrat', sans-serif;
+  background-color: #112d4e;
+}
+
+h2 {
+  padding-top: 12px;
+}
+
+h4 {
+  color: #f9f7f7;
+}
+
+p {
+  color: #f9f7f7;
+}
+
+#title {
+  background-color: #112d4e;
+  /* padding-bottom: 30px; */
+}
+
+/* Headshot */
+#headshot {
+  background-color: #112d4e;
+  padding-bottom: 30px;
+}
+
+.profile-image {
+  height: 200px;
+}
+
+.intro_table {
+  margin-bottom: 12px;
+}
+
+.img-td {
+  padding-left: 30px;
+}
+
+.desc-td {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+/* Projects */
+#projects {
+  background-color: #f9f7f7;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.project-header {
+  color: BLACK;
+}
+
+.project-column {
+  padding-bottom: 15px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-header {
+  background-color: #112d4e;
+}
+
+.card-body-text {
+  color: #000;
+}
+
+.row {
+  margin-right: 15px;
+}
+
+/* Languages */
+#languages {
+  background-color: #f9f7f7;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 0px;
+}
+
+.languages-header {
+  color: BLACK;
+}
+
+/* Courses */
+#courses {
+  background-color: #f9f7f7;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.courses-header {
+  color: BLACK;
+}
+
+/* Footer */
+#footer {
+  background-color: #112d4e;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.footer-head {
+  color: #f9f7f7;
+}
+
+.footer-links {
+  padding-top: 15px;
+}
+
+.footer-link {
+  color: #3f72af;
+}
+
+.footer-signature {
+  color: #f9f7f7;
+}
+
+.devicon {
+  font-size: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.langtool-section {
+  background-color: #8daac4;
+  height: 5rem;
+  border-radius: 10px;
+  padding-left: 10px;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#lang-courses {
+  background-color: #f9f7f7;
+  padding-right: 15px;
+}
+
+.lang-courses-row {
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
